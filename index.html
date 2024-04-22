@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <label>Ano de Nascimento:</label>
+            <input id="ano" type="number" min="0"><br><br>
+            <label>Sexo:</label>
+
+            <input id="masculino" type="radio" name="sexo" value="masculino" checked>
+            <label for="masculino">Masculino
+            </label>
+
+            <input id="feminino" type="radio" name="sexo" value="feminino">
+            <label for="feminino">Feminino
+            </label>
+
+            <br><br>
+
+
+            <input onclick="cauculadorIdade()" type="submit" value="Verificar">
+        </div>
+        <div>
+            <p id="detectar"></p>
+            <img id="imagem" src="">
+
+        </div>
+
+    </section>
+
+
+
+    <footer>
+
+        <p>&copy;
+            Kaiki-Dev</p>
+    </footer>
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
